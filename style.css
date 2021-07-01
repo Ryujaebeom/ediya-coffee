@@ -1,0 +1,139 @@
+/* style. css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+.box {
+    width: 1920px;
+    height: 100px;
+    /* background-color: #ccc; */
+    position: relative;
+}
+header > ul > li {
+    list-style-type: none;
+    display: inline-block;
+}
+header > ul > li > a {
+    margin: 50px;
+    text-decoration: none;
+    /* color: #444; */
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#gnb {
+    position: absolute;
+    right:-31px;
+    top: -7px;
+    margin: 50px;
+    /* border:solid 2px red; */
+  }
+.logo > a > img {
+    /* border: 1px solid red; */ 
+    position: absolute;
+    top: 32px;
+    left: 59px;
+}
+.main_contents {
+    width: 960px;
+    height: 507px;
+    /* background-color: orange; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 638px;
+    height: 160px;
+    /* border: 2px solid red; */
+    position: absolute;
+    display: flex;
+    top: 73px;
+    left: 137px;
+    align-items: center;
+}
+.box2 > #maintext {
+    font-size: 50px;
+    font-weight: bold;
+}
+.box2 > #maintext > span {
+    color: #27498C;
+}
+.box3 {
+    width: 638px;
+    height: 150px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 237px;
+    left: 137px;
+    bottom: 117px;
+}
+.box3 > p {
+    font-weight: bold;
+}
+.contents {
+    
+}
+#box4 {
+    width: 320px;
+    height: 301px;
+    /* background: lightgray; */
+}
+#box5 {
+    width: 320px;
+    height: 301px;
+    /* background: lightgray; */
+}
+#box6 {
+    width: 320px;
+    height: 301px;
+    /* background: lightgray; */
+}
+
+.contents > ul > li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+}
+.main_title1 {
+    width: 960px;
+    height: 980px;
+    float: right;
+    /* border: 2px solid red; */ 
+    position: relative;
+    top: -515px;
+}
+.footer {
+    width: 960px;
+    height: 170px;
+    /* border: solid 2px red; */
+    clear: both;
+    position: relative;
+    top:-680px;
+}
+footer > p {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    float: left;
+    padding-top: 100px;
+    padding-left: 67px;
+}
+footer > ul > li {
+    list-style-type: none;
+    float: right;
+    margin-right: 65px;
+    padding-top: 100px;
+}
+.contents > ul > li > a {
+    transition-duration: 0.5s;
+    display: block;
+}
+.contents > ul > li > a:hover {
+    transform: scale(1.2);
+  }
