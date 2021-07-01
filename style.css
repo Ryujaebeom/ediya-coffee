@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    background: linear-gradient(0deg, #ccc, #fff 30%);
+}
 .container {
     width: 1920px;
     margin: 0 auto;
@@ -31,7 +36,13 @@ header > ul > li > a {
     top: -7px;
     margin: 50px;
     /* border:solid 2px red; */
+    color: blcak;
+    text-decoration: none;
+    color: #444;
+    text-transform: capitalize;
+    font-weight: 600;
   }
+
 .logo > a > img {
     /* border: 1px solid red; */ 
     position: absolute;
